@@ -348,6 +348,7 @@ add_action( 'admin_print_styles', 'elv_easylogo_styles_admin' );
  * @since Easy Logo 1.0
  */
 function elv_easylogo_styles_admin() {
+	wp_enqueue_media(); // Fixing media library button
 	wp_enqueue_style( 'thickbox' );
 	wp_enqueue_style( 'elv_hover_css', plugins_url('/easylogo/css/hover/hover-min.css'), array(), '', false );
 }
