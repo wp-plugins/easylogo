@@ -3,7 +3,7 @@
 Plugin Name: Easy Logo
 Plugin URI: http://plugins.imvarunkmr.net/easylogo
 Description: Upload logos on your WordPress sites and manage them easily
-Version: 1.0
+Version: 1.1
 Author: Varun Kumar
 Author URI: http://imvarunkmr.net
 License: GPLv2  
