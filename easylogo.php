@@ -9,6 +9,7 @@ Author URI: http://imvarunkmr.net
 License: GPLv2  
 */
 ?>
+
 <?php
 /* Copyright 2014 VARUN KUMAR (email : imvarunkmr@gmail.com)
 This program is free software; you can redistribute it and/or modify
@@ -24,6 +25,7 @@ along with this program; if not, write to the Free Software
 Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA
 */
 ?>
+
 <?php
 
 add_action( 'admin_menu', 'elv_easylogo_add_settings_page' );
@@ -364,11 +366,10 @@ add_action( 'template_redirect', 'elv_easylogo_styles_front_end' );
 function elv_easylogo_styles_front_end() {
 	$options = elv_easylogo_get_options();
 	$elv_easylogo_hover_effect = $options['hover'];
-	if( $options != false || $elv_easylogo_hover_effect !='none' ) {
+	if( $options != false && $elv_easylogo_hover_effect !='none' ) {
 		wp_enqueue_style( 'elv_hover_css', plugins_url('/easylogo/css/hover/hover-min.css'), array(), '', false );
 	}
 }
-
 
 register_deactivation_hook('__FILE__', 'elv_easylogo_uninstall');
 /**
@@ -379,4 +380,3 @@ register_deactivation_hook('__FILE__', 'elv_easylogo_uninstall');
 function elv_easylogo_uninstall() {
 	delete_option('elv_easylogo_options');
 }
-?>

@@ -3,21 +3,46 @@ Contributors: (imvarunkmr)
 Donate link: http://imvarunkmr.net/
 Tags: logo, effects, management
 Requires at least: 3.0.1
-Tested up to: 4.0
-Stable tag: 1.1
+Tested up to: 4.2.2
+Stable tag: 1.2
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
-This plugin allows the end user to upload a new logo or add existng image as a logo.
+This plugin allows the end user to upload a new logo or use an existing image from your WordPress media gallery as a logo.
 
 == Description ==
 
 This plugin helps in managing your WordPress website's logo. 
 You can easily upload a new logo, or use an existing image in your WP media  gallery. 
-Multiple features are provided such as 
+Multiple features are provided such as: 
+
 * Applying hover effects to your logos.
+
 * Making the logo responsive
+
 * Uploading and using the retina version of your logo.
+
+To see some samples [visit the plugin support page ](http://plugins.imvarunkmr.net/easylogo/ "WordPress plugins by Varun")
+
+
+== Changelog ==
+
+= 1.2 =
+* Fixed a minor bug as pointed by user in support forums [here](https://wordpress.org/support/topic/jumping-menu-in-admin-bar)
+
+= 1.1 =
+* Fixed compatibility issues with latest media uploader
+
+== Upgrade Notice ==
+
+= 1.2 = 
+Upgrade if you are facing issues with WordPress admin bar on your website
+= 1.1 =
+Upgrade if your media gallery buttons are no longer working after WordPress upgrade
+
+== Screenshots ==
+
+1. This is the screenshot of main settings page of this plugin. You can customise the settings as per your convenience. 
 
 == Installation ==
 
@@ -34,4 +59,4 @@ Absolutely not. If you select no hover effect i.e 'none', sylesheets won't be ad
 
 = Can I use this plugin to insert other images in my website =
 
-At the moment unfortunately no. I wl be working on this in future upgrades
+At the moment unfortunately no. I will be working on this in future upgrades
