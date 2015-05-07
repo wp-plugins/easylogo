@@ -4,7 +4,7 @@ Donate link: http://imvarunkmr.net/
 Tags: logo, effects, management
 Requires at least: 3.0.1
 Tested up to: 4.2.2
-Stable tag: 1.2
+Stable tag: 1.3
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -27,6 +27,9 @@ To see some samples [visit the plugin support page ](http://plugins.imvarunkmr.n
 
 == Changelog ==
 
+= 1.3 =
+* Fixed “headers already sent error” caused by 1.2 upgrade. 
+
 = 1.2 =
 * Fixed a minor bug as pointed by user in support forums [here](https://wordpress.org/support/topic/jumping-menu-in-admin-bar)
 
@@ -34,6 +37,9 @@ To see some samples [visit the plugin support page ](http://plugins.imvarunkmr.n
 * Fixed compatibility issues with latest media uploader
 
 == Upgrade Notice ==
+
+= 1.3
+Fixed “headers already sent error” caused by previous upgrade
 
 = 1.2 = 
 Upgrade if you are facing issues with WordPress admin bar on your website
