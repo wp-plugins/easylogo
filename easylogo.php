@@ -8,9 +8,7 @@ Author: Varun Kumar
 Author URI: http://imvarunkmr.net
 License: GPLv2  
 */
-?>
-
-<?php
+?><?php
 /* Copyright 2014 VARUN KUMAR (email : imvarunkmr@gmail.com)
 This program is free software; you can redistribute it and/or modify
 it under the terms of the GNU General Public License as published by
@@ -24,9 +22,7 @@ You should have received a copy of the GNU General Public License
 along with this program; if not, write to the Free Software
 Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA
 */
-?>
-
-<?php
+?><?php
 
 add_action( 'admin_menu', 'elv_easylogo_add_settings_page' );
 /**
