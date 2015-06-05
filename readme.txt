@@ -4,7 +4,7 @@ Donate link: http://imvarunkmr.net/
 Tags: logo, effects, management
 Requires at least: 3.0.1
 Tested up to: 4.2.2
-Stable tag: 1.3
+Stable tag: 1.4
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -24,8 +24,10 @@ Multiple features are provided such as:
 
 To see some samples [visit the plugin support page ](http://plugins.imvarunkmr.net/easylogo/ "WordPress plugins by Varun")
 
-
 == Changelog ==
+
+= 1.4 =
+* Fixed issue with updated hover effects library
 
 = 1.3 =
 * Fixed “headers already sent error” caused by upgrade 1.2
@@ -39,6 +41,10 @@ To see some samples [visit the plugin support page ](http://plugins.imvarunkmr.n
 * Fixed compatibility issues with latest media uploader
 
 == Upgrade Notice ==
+
+
+= 1.4 =
+* Fixed issue with updated hover effects library
 
 = 1.3 =
 * Fixed “headers already sent error” caused by upgrade version 1.2

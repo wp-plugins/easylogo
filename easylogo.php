@@ -3,7 +3,7 @@
 Plugin Name: Easy Logo
 Plugin URI: http://plugins.imvarunkmr.net/easylogo
 Description: Upload logos on your WordPress sites and manage them easily
-Version: 1.3
+Version: 1.4
 Author: Varun Kumar
 Author URI: http://imvarunkmr.net
 License: GPLv2  
@@ -184,47 +184,47 @@ function elv_easylogo_hover_select(){
 	 *
 	 */
 	?><p><select id="elv_select_hover_effect" name= "elv_easylogo_options[hover]">
-		<option value="none" <?php selected($elv_easylogo_hover_effect, 'none'); ?>>None</option>
-		<option value="grow" <?php selected($elv_easylogo_hover_effect, 'grow'); ?>>Grow</option>
-		<option value="shrink" <?php selected($elv_easylogo_hover_effect, 'shrink'); ?>>Shrink</option>
-		<option value="pulse" <?php selected($elv_easylogo_hover_effect, 'pulse'); ?>>Pulse</option>
-		<option value="pulse-grow" <?php selected($elv_easylogo_hover_effect, 'pulse-grow'); ?>>Pulse Grow</option>
-		<option value="pulse-shrink" <?php selected($elv_easylogo_hover_effect, 'pulse-shrink'); ?>>Pulse Shrink</option>
-		<option value="push" <?php selected($elv_easylogo_hover_effect, 'push'); ?>>Push</option>
-		<option value="pop" <?php selected($elv_easylogo_hover_effect, 'pop'); ?>>Pop</option>
-		<option value="rotate" <?php selected($elv_easylogo_hover_effect, 'rotate'); ?>>Rotate</option>
-		<option value="grow-rotate" <?php selected($elv_easylogo_hover_effect, 'grow-rotate'); ?>>Grow Rotate</option>
-		<option value="float" <?php selected($elv_easylogo_hover_effect, 'float'); ?>>Float</option>
-		<option value="sink" <?php selected($elv_easylogo_hover_effect, 'sink'); ?>>Sink</option>
-		<option value="hover" <?php selected($elv_easylogo_hover_effect, 'hover'); ?>>Hover</option>
-		<option value="hang" <?php selected($elv_easylogo_hover_effect, 'hang'); ?>>Hang</option>
-		<option value="skew" <?php selected($elv_easylogo_hover_effect, 'skew'); ?>>Skew</option>
-		<option value="skew-forward" <?php selected($elv_easylogo_hover_effect, 'skew-forward'); ?>>Skew Forward</option>
-		<option value="skew-backward" <?php selected($elv_easylogo_hover_effect, 'skew-backward'); ?>>Skew Backward</option>
-		<option value="wobble-horizontal" <?php selected($elv_easylogo_hover_effect, 'wobble-horizontal'); ?>>Wobble Horizontal</option>
-		<option value="wobble-vertical" <?php selected($elv_easylogo_hover_effect, 'wobble-vertical'); ?>>Wobble Vertical</option>
-		<option value="wobble-to-bottom-right" <?php selected($elv_easylogo_hover_effect, 'wobble-to-bottom-right'); ?>>Wobble to bottom right</option>
-		<option value="wobble-to-top-right" <?php selected($elv_easylogo_hover_effect, 'wobble-to-top-right'); ?>>Wobble to top right</option>
-		<option value="wobble-top" <?php selected($elv_easylogo_hover_effect, 'wobble-top'); ?>>Wobble Top</option>
-		<option value="wobble-bottom" <?php selected($elv_easylogo_hover_effect, 'wobble-bottom'); ?>>Wobble Bottom</option>
-		<option value="wobble-skew" <?php selected($elv_easylogo_hover_effect, 'wobble-skew'); ?>>Wobble Skew</option>
-		<option value="buzz" <?php selected($elv_easylogo_hover_effect, 'buzz'); ?>>Buzz</option>
-		<option value="buzz-out" <?php selected($elv_easylogo_hover_effect, 'buzz-out'); ?>>Buzz Out</option>
-		<option value="float-shadow" <?php selected($elv_easylogo_hover_effect, 'float-shadow'); ?>>Float Shadow</option>
-		<option value="hover-shadow" <?php selected($elv_easylogo_hover_effect, 'hover-shadow'); ?>>Hover Shadow</option>
-		<option value="shadow-radial" <?php selected($elv_easylogo_hover_effect, 'shadow-radial'); ?>>Shadow Radial</option>
-		<option value="bubble-top" <?php selected($elv_easylogo_hover_effect, 'bubble-top'); ?>>Bubble Top</option>
-		<option value="bubble-bottom" <?php selected($elv_easylogo_hover_effect, 'bubble-bottom'); ?>>Bubble Bottom</option>
-		<option value="bubble-right" <?php selected($elv_easylogo_hover_effect, 'bubble-right'); ?>>Bubble Right</option>
-		<option value="bubble-left" <?php selected($elv_easylogo_hover_effect, 'bubble-left'); ?>>Bubble Left</option>
-		<option value="bubble-float-top" <?php selected($elv_easylogo_hover_effect, 'bubble-float-top'); ?>>Bubble Float Top</option>
-		<option value="bubble-float-right" <?php selected($elv_easylogo_hover_effect, 'bubble-float-right'); ?>>Bubble Float Right</option>
-		<option value="bubble-float-left" <?php selected($elv_easylogo_hover_effect, 'bubble-float-left'); ?>>Bubble Float Left</option>
-		<option value="bubble-float-bottom" <?php selected($elv_easylogo_hover_effect, 'bubble-float-bottom'); ?>>Bubble Float Bottom</option>
-		<option value="curl-top-left" <?php selected($elv_easylogo_hover_effect, 'curl-top-left'); ?>>Curl Top Left</option>
-		<option value="curl-top-right" <?php selected($elv_easylogo_hover_effect, 'curl-top-right'); ?>>Curl Top Right</option>
-		<option value="curl-bottom-left" <?php selected($elv_easylogo_hover_effect, 'curl-bottom-left'); ?>>Curl Bottom Left</option>
-		<option value="curl-bottom-right" <?php selected($elv_easylogo_hover_effect, 'curl-bottom-right'); ?>>Curl Bottom Right</option>
+		<option value="hvr-none" <?php selected($elv_easylogo_hover_effect, 'none'); ?>>None</option>
+		<option value="hvr-grow" <?php selected($elv_easylogo_hover_effect, 'grow'); ?>>Grow</option>
+		<option value="hvr-shrink" <?php selected($elv_easylogo_hover_effect, 'shrink'); ?>>Shrink</option>
+		<option value="hvr-pulse" <?php selected($elv_easylogo_hover_effect, 'pulse'); ?>>Pulse</option>
+		<option value="hvr-pulse-grow" <?php selected($elv_easylogo_hover_effect, 'pulse-grow'); ?>>Pulse Grow</option>
+		<option value="hvr-pulse-shrink" <?php selected($elv_easylogo_hover_effect, 'pulse-shrink'); ?>>Pulse Shrink</option>
+		<option value="hvr-push" <?php selected($elv_easylogo_hover_effect, 'push'); ?>>Push</option>
+		<option value="hvr-pop" <?php selected($elv_easylogo_hover_effect, 'pop'); ?>>Pop</option>
+		<option value="hvr-rotate" <?php selected($elv_easylogo_hover_effect, 'rotate'); ?>>Rotate</option>
+		<option value="hvr-grow-rotate" <?php selected($elv_easylogo_hover_effect, 'grow-rotate'); ?>>Grow Rotate</option>
+		<option value="hvr-float" <?php selected($elv_easylogo_hover_effect, 'float'); ?>>Float</option>
+		<option value="hvr-sink" <?php selected($elv_easylogo_hover_effect, 'sink'); ?>>Sink</option>
+		<option value="hvr-hover" <?php selected($elv_easylogo_hover_effect, 'hover'); ?>>Hover</option>
+		<option value="hvr-hang" <?php selected($elv_easylogo_hover_effect, 'hang'); ?>>Hang</option>
+		<option value="hvr-skew" <?php selected($elv_easylogo_hover_effect, 'skew'); ?>>Skew</option>
+		<option value="hvr-skew-forward" <?php selected($elv_easylogo_hover_effect, 'skew-forward'); ?>>Skew Forward</option>
+		<option value="hvr-skew-backward" <?php selected($elv_easylogo_hover_effect, 'skew-backward'); ?>>Skew Backward</option>
+		<option value="hvr-wobble-horizontal" <?php selected($elv_easylogo_hover_effect, 'wobble-horizontal'); ?>>Wobble Horizontal</option>
+		<option value="hvr-wobble-vertical" <?php selected($elv_easylogo_hover_effect, 'wobble-vertical'); ?>>Wobble Vertical</option>
+		<option value="hvr-wobble-to-bottom-right" <?php selected($elv_easylogo_hover_effect, 'wobble-to-bottom-right'); ?>>Wobble to bottom right</option>
+		<option value="hvr-wobble-to-top-right" <?php selected($elv_easylogo_hover_effect, 'wobble-to-top-right'); ?>>Wobble to top right</option>
+		<option value="hvr-wobble-top" <?php selected($elv_easylogo_hover_effect, 'wobble-top'); ?>>Wobble Top</option>
+		<option value="hvr-wobble-bottom" <?php selected($elv_easylogo_hover_effect, 'wobble-bottom'); ?>>Wobble Bottom</option>
+		<option value="hvr-wobble-skew" <?php selected($elv_easylogo_hover_effect, 'wobble-skew'); ?>>Wobble Skew</option>
+		<option value="hvr-buzz" <?php selected($elv_easylogo_hover_effect, 'buzz'); ?>>Buzz</option>
+		<option value="hvr-buzz-out" <?php selected($elv_easylogo_hover_effect, 'buzz-out'); ?>>Buzz Out</option>
+		<option value="hvr-float-shadow" <?php selected($elv_easylogo_hover_effect, 'float-shadow'); ?>>Float Shadow</option>
+		<option value="hvr-hover-shadow" <?php selected($elv_easylogo_hover_effect, 'hover-shadow'); ?>>Hover Shadow</option>
+		<option value="hvr-shadow-radial" <?php selected($elv_easylogo_hover_effect, 'shadow-radial'); ?>>Shadow Radial</option>
+		<option value="hvr-bubble-top" <?php selected($elv_easylogo_hover_effect, 'bubble-top'); ?>>Bubble Top</option>
+		<option value="hvr-bubble-bottom" <?php selected($elv_easylogo_hover_effect, 'bubble-bottom'); ?>>Bubble Bottom</option>
+		<option value="hvr-bubble-right" <?php selected($elv_easylogo_hover_effect, 'bubble-right'); ?>>Bubble Right</option>
+		<option value="hvr-bubble-left" <?php selected($elv_easylogo_hover_effect, 'bubble-left'); ?>>Bubble Left</option>
+		<option value="hvr-bubble-float-top" <?php selected($elv_easylogo_hover_effect, 'bubble-float-top'); ?>>Bubble Float Top</option>
+		<option value="hvr-bubble-float-right" <?php selected($elv_easylogo_hover_effect, 'bubble-float-right'); ?>>Bubble Float Right</option>
+		<option value="hvr-bubble-float-left" <?php selected($elv_easylogo_hover_effect, 'bubble-float-left'); ?>>Bubble Float Left</option>
+		<option value="hvr-bubble-float-bottom" <?php selected($elv_easylogo_hover_effect, 'bubble-float-bottom'); ?>>Bubble Float Bottom</option>
+		<option value="hvr-curl-top-left" <?php selected($elv_easylogo_hover_effect, 'curl-top-left'); ?>>Curl Top Left</option>
+		<option value="hvr-curl-top-right" <?php selected($elv_easylogo_hover_effect, 'curl-top-right'); ?>>Curl Top Right</option>
+		<option value="hvr-curl-bottom-left" <?php selected($elv_easylogo_hover_effect, 'curl-bottom-left'); ?>>Curl Bottom Left</option>
+		<option value="hvr-curl-bottom-right" <?php selected($elv_easylogo_hover_effect, 'curl-bottom-right'); ?>>Curl Bottom Right</option>
 	</select></p>
 	<p class="description">Few recommended effects - Float Shadow, Shadow Radial, Curl-(any)</p>
 	<span style="line-height:0" id="easylogo-admin-preview-p" class="<?php echo $elv_easylogo_hover_effect; ?>">
@@ -279,8 +279,7 @@ function elv_easylogo_validate_options($input) {
 	
 	$input['image_path'] = esc_url( $input['image_path'] );
 	
-	return $input;
-	
+	return $input;	
 }
 
 /**
